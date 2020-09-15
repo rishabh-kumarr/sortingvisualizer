@@ -9,8 +9,8 @@ famous sorting algorithms are considered while doing this project. The algorithm
 5. Quick Sort
 6. Heap Sort
 
-This app can be used in analyzing and understanding how the sorting works. I have used the concepts of Sorting algorithms to process and display the ascending order of sorting 
-through this project. I have also included the properties such as controlling the size of the array and the speed of the sorting.
+This app can be used in analyzing and understanding how the sorting works. I have used the concepts of Sorting algorithms to process and display the ascending order of 
+sorting through this project. I have also included the properties such as controlling the size of the array and the speed of the sorting.
 
 WORKING:
 
