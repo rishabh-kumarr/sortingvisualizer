@@ -1,0 +1,79 @@
+<!-- MADE BY: RISHABH KUMAR,
+     EMAIL: THISISRISHABHKUMAR@GMAIL.COM -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SORTING VISUALIZER</title>
+
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div class="arrayInputs">
+					<p>SIZE OF THE ARRAY</p>
+					<input
+						id="arr_size"
+						type="range"
+						min="10"
+						max="150"
+						step="1"
+						value="80"
+					/>
+
+					<p>SPEED OF THE ALGORITHM</p>
+					<input
+						id="arr_speed"
+						type="range"
+						min="1"
+						max="5"
+						step="1"
+						value="4"
+					/>
+
+					<button id="arr_generate">GENERATE NEW ARRAY</button>
+				</div>
+
+				<div class="header_right">
+					<p class="nav-heading">SORTING VISUALIZER</p>
+
+					<div class="algos">
+						<button>Bubble</button>
+						<button>Selection</button>
+						<button>Insertion</button>
+						<button>Merge</button>
+						<button>Quick</button>
+						<button style="margin-right: 0px">Heap</button>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<section>
+			<div id="containerone"></div>
+
+			<div id="array_container"></div>
+
+			<div id="containertwo"></div>
+		</section>
+
+		<footer></footer>
+
+		<script src="./scripts/main.js"></script>
+		<script src="./scripts/visualizations.js"></script>
+
+		<script src="./scripts/bubbleSort.js"></script>
+		<script src="./scripts/selectionSort.js"></script>
+		<script src="./scripts/insertionSort.js"></script>
+		<script src="./scripts/mergeSort.js"></script>
+		<script src="./scripts/quickSort.js"></script>
+		<script src="./scripts/heapSort.js"></script>
+	</body>
+	<!-- MADE BY: RISHABH KUMAR,
+     EMAIL: THISISRISHABHKUMAR@GMAIL.COM -->
+</html>

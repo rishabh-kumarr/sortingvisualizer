@@ -1,0 +1,150 @@
+/* MADE BY: RISHABH KUMAR,
+EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav {
+	background: #444;
+	color: white;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 30% 60%;
+	grid-template-columns: 30% 60%;
+	-webkit-column-gap: 10%;
+	column-gap: 10%;
+	padding: 0% 5%;
+}
+
+nav .arrayInputs {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 60% 40%;
+	grid-template-columns: 60% 40%;
+	place-content: center;
+	padding: 5% 0%;
+}
+
+nav .arrayInputs #arr_size {
+	padding: 5% 0%;
+}
+
+nav .arrayInputs #arr_speed {
+	padding: 5% 0%;
+}
+
+nav .arrayInputs #arr_generate {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 4% 0% 0% 0%;
+	margin-top: 10%;
+	align-items: center;
+	justify-content: center;
+}
+
+nav .arrayInputs #arr_generate:hover {
+	cursor: pointer;
+	background: rgb(125, 125, 243);
+}
+
+nav .header_right {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+	display: inline-block;
+	font-size: xxx-large;
+	padding: 3% 0%;
+}
+
+nav .header_right .algos {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (16.66667%);
+	grid-template-columns: repeat(6, 16.66667%);
+	place-content: center;
+	padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+	background: transparent;
+	border: none;
+	color: white;
+	outline: none;
+	padding: 5% 0%;
+	font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+	background: rgb(125, 125, 243);
+	cursor: pointer;
+}
+
+nav .header_right .algos .button_locked {
+	background: transparent;
+	cursor: pointer;
+}
+
+nav .header_right .algos .button_locked:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+nav .header_right .algos .button_selected {
+	background: white;
+	color: green;
+}
+
+nav .header_right .algos .button_selected:hover {
+	background: white;
+	cursor: pointer;
+}
+
+nav .header_right .algos .button_notselected:hover {
+	background: rgb(125, 125, 243);
+	cursor: pointer;
+}
+
+section {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 20% 60% 20%;
+	grid-template-columns: 20% 60% 20%;
+}
+
+section #containerone {
+	padding: 20%;
+}
+
+section #array_container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 70vh;
+}
+
+section #containertwo {
+	padding: 20%;
+}
+
+.hide {
+	display: none;
+}
+
+/* MADE BY: RISHABH KUMAR,
+EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
