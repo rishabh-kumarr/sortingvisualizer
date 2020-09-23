@@ -11,7 +11,8 @@ EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
 }
 
 nav {
-	background: rgb(125, 125, 243);
+	flex:1;
+	background:#333;
 	color: white;
 	display: -ms-grid;
 	display: grid;
@@ -52,7 +53,7 @@ nav .arrayInputs #arr_generate {
 
 nav .arrayInputs #arr_generate:hover {
 	cursor: pointer;
-	background: rgb(149, 243, 125);
+	background: rgb(129, 138, 218);
 }
 
 nav .header_right {
@@ -87,10 +88,12 @@ nav .header_right .algos button {
 	outline: none;
 	padding: 5% 0%;
 	font-size: x-large;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
 }
 
 nav .header_right .algos button:hover {
-	background: rgb(149, 243, 125);
+	background: rgb(129, 138, 218);
 	cursor: pointer;
 }
 
@@ -105,8 +108,8 @@ nav .header_right .algos .button_locked:hover {
 }
 
 nav .header_right .algos .button_selected {
-	background: white;
-	color: red;
+	background: #efef;
+	color: green;
 }
 
 nav .header_right .algos .button_selected:hover {
@@ -115,7 +118,7 @@ nav .header_right .algos .button_selected:hover {
 }
 
 nav .header_right .algos .button_notselected:hover {
-	background: rgb(149, 243, 125);
+	background: rgb(129, 138, 218);
 	cursor: pointer;
 }
 
@@ -142,17 +145,29 @@ section #containertwo {
 	padding: 20%;
 }
 
+footer {
+	text-align: center;	
+}
+
+footer a{
+	text-decoration: none;
+	color: #555;
+}
+
 .hide {
 	display: none;
 }
 
-@media(max-width:480px){
-	html{
-		orientation: landscape;
+@media(orientation:landscape){
+	p{
+		font-size:0.9rem;
 	}
-	/* nav .header_right .algos button{
-		font-size:0.7rem;
-	} */
+	nav .header_right .algos button{
+		font-size:0.73rem;
+	}
+	nav .header_right .nav-heading{
+		font-size:2.44rem
+	}
 }
 
 /* MADE BY: RISHABH KUMAR,
