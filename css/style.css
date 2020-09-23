@@ -11,7 +11,7 @@ EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
 }
 
 nav {
-	background: #444;
+	background: rgb(125, 125, 243);
 	color: white;
 	display: -ms-grid;
 	display: grid;
@@ -52,7 +52,7 @@ nav .arrayInputs #arr_generate {
 
 nav .arrayInputs #arr_generate:hover {
 	cursor: pointer;
-	background: rgb(125, 125, 243);
+	background: rgb(149, 243, 125);
 }
 
 nav .header_right {
@@ -90,7 +90,7 @@ nav .header_right .algos button {
 }
 
 nav .header_right .algos button:hover {
-	background: rgb(125, 125, 243);
+	background: rgb(149, 243, 125);
 	cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ nav .header_right .algos .button_locked:hover {
 
 nav .header_right .algos .button_selected {
 	background: white;
-	color: green;
+	color: red;
 }
 
 nav .header_right .algos .button_selected:hover {
@@ -115,7 +115,7 @@ nav .header_right .algos .button_selected:hover {
 }
 
 nav .header_right .algos .button_notselected:hover {
-	background: rgb(125, 125, 243);
+	background: rgb(149, 243, 125);
 	cursor: pointer;
 }
 
@@ -144,6 +144,15 @@ section #containertwo {
 
 .hide {
 	display: none;
+}
+
+@media(max-width:480px){
+	html{
+		orientation: landscape;
+	}
+	/* nav .header_right .algos button{
+		font-size:0.7rem;
+	} */
 }
 
 /* MADE BY: RISHABH KUMAR,

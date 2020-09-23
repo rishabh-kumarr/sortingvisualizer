@@ -6,7 +6,7 @@ function insertionSort() {
 
 	for (var i = 0; i < array_size; i++) {
 		// COLOR UPDATE
-		div_update(divs[j], div_sizes[j], 'yellow')
+		div_update(divs[i], div_sizes[i], 'yellow')
 
 		var key = div_sizes[i]
 		var j = i - 1
@@ -23,7 +23,8 @@ function insertionSort() {
 			// COLOR UPDATE
 			div_update(divs[j], div_sizes[j], 'blue')
 
-			if (j == i - 1) {
+			if (j == (i - 1))
+			{
 				// COLOR UPDATE
 				div_update(divs[j + 1], div_sizes[j + 1], 'yellow')
 			} else {
