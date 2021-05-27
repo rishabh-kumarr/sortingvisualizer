@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function insertionSort() {
 	c_delay = 0
 
@@ -43,6 +40,3 @@ function insertionSort() {
 
 	enable_buttons()
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

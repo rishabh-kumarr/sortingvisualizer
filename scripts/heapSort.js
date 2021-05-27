@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function heapSort() {
 	c_delay = 0
 	heap_sort()
@@ -71,6 +68,3 @@ function heap_sort() {
 	}
 	div_update(divs[i], div_sizes[i], 'green') //Color update
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

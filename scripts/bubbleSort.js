@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function bubbleSort() {
 	c_delay = 0
 
@@ -36,6 +33,3 @@ function bubbleSort() {
 	div_update(divs[0], div_sizes[0], 'green')
 	enable_buttons()
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

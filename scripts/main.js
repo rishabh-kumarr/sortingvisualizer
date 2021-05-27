@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 // VARIABLES (USED IN JS FILES)
 var input_as = document.getElementById('arr_size')
 var array_size = input_as.value
@@ -81,6 +78,3 @@ function run_algorithm() {
             break;
     }
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

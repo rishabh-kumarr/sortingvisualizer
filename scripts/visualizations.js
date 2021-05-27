@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 var speed = 1000
 
 input_arrspeed.addEventListener('input', visual_speed)
@@ -61,6 +58,3 @@ function enable_buttons() {
 		}
 	}, (c_delay += delay))
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

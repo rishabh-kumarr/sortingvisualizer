@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function quickSort() {
 	c_delay = 0
 	quick_sort(0, array_size - 1)
@@ -58,6 +55,3 @@ function quick_sort(start, end) {
 		quick_sort(piv_pos + 1, end) //sorts the right side of pivot.
 	}
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

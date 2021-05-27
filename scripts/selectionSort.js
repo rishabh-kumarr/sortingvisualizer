@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function selectionSort() {
 	c_delay = 0
 
@@ -45,6 +42,3 @@ function selectionSort() {
 
 	enable_buttons()
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */

@@ -1,6 +1,3 @@
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
-
 function mergeSort() {
 	c_delay = 0
 	mergePartition(0, array_size - 1)
@@ -47,6 +44,3 @@ function mergePartition(start, end) {
 		mergesortoperation(start, mid, end)
 	}
 }
-
-/* MADE BY: RISHABH KUMAR,
-EMAIL: THISISRISHABHKUMAR@GMAIL.COM */
